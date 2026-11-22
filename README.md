@@ -6,6 +6,8 @@ You feed it three things: the candidates your pipeline generated (with token usa
 
 The last part exists because a pooled table hides it when a fallback path answers some calls from a different, pricier backend under the requested model's name. See the backend check under "How it works".
 
+Write-up: [Caching made my rewrite pipeline cost more, and the cheap-model verdict only half held](https://unlicensedthought.com/writing/caching-made-my-rewrite-pipeline-cost-more/)
+
 ## Quick start
 
 Needs Node 20 or newer. No dependencies.
